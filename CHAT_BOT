@@ -1,6 +1,6 @@
 import telebot
 from config import exchanges, TOKEN
-from Utilits import ConvertionException, ExchangeConvertor
+from Exchanges import ConvertionException, ExchangeConvertor
 
 bot = telebot.TeleBot (TOKEN)
 
